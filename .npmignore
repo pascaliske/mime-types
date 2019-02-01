@@ -1,6 +1,7 @@
 src
 tests
 typings.d.ts
+.nyc_output
 .editorconfig
 .huskyrc
 .lintstagedrc
