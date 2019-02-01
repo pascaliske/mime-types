@@ -2,7 +2,11 @@ src
 tests
 typings.d.ts
 .editorconfig
+.huskyrc
+.lintstagedrc
 .prettierrc
+.snyk
+.travis.yml
 *.code-*
 *.yml
 *.json
