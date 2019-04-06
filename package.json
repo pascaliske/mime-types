@@ -1,7 +1,7 @@
 {
   "name": "@pascaliske/mime-types",
   "description": "Simple wrapper for node-mime package.",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "license": "MIT",
   "author": {
     "name": "Pascal Iske",
@@ -26,7 +26,7 @@
     "test": "nyc ava tests/**/*.test.js",
     "check": "snyk test",
     "format": "prettier --write \"src/**/*.ts\"",
-    "changelog": "standard-changelog --release-count 1"
+    "changelog": "standard-changelog"
   },
   "dependencies": {
     "mime": "^2.4.1"
