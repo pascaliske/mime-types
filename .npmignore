@@ -1,6 +1,8 @@
 src
 tests
 typings.d.ts
+.rpt2_cache
+.github
 .nyc_output
 .editorconfig
 .huskyrc
@@ -8,6 +10,7 @@ typings.d.ts
 .prettierrc
 .snyk
 .travis.yml
+*.config.*
 *.code-*
 *.yml
 *.json
