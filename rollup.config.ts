@@ -18,10 +18,6 @@ export default () => ({
             format: 'umd',
             file: browser,
             name: 'mimeTypes',
-            globals: {
-                tslib: 'tslib',
-                classnames: 'classNames',
-            },
         },
     ],
     external: ['mime/Mime', 'mime/types/standard.json'],
