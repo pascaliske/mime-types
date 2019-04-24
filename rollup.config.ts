@@ -1,6 +1,5 @@
 import clear from 'rollup-plugin-clear'
 import typescript from 'rollup-plugin-typescript2'
-import json from 'rollup-plugin-json'
 import { terser } from 'rollup-plugin-terser'
 import { module, main, browser } from './package.json'
 
@@ -37,9 +36,6 @@ export default () => ({
                 exclude: ['rollup.config.ts'],
             },
             useTsconfigDeclarationDir: true,
-        }),
-        json({
-            compact: true,
         }),
         terser(),
     ],
