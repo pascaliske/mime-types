@@ -1,7 +1,7 @@
 {
   "name": "@pascaliske/mime-types",
   "description": "Simple wrapper for node-mime package.",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "license": "MIT",
   "author": {
     "name": "Pascal Iske",
@@ -17,11 +17,12 @@
   },
   "main": "dist/index.js",
   "module": "dist/index.es.js",
+  "browser": "dist/index.umd.js",
   "typings": "dist/index.d.ts",
   "scripts": {
     "build": "rollup --config rollup.config.ts",
     "watch": "rollup --config rollup.config.ts --watch",
-    "postbuild": "tsc --declaration --outDir dist --emitDeclarationOnly --resolveJsonModule src/index.ts",
+    "docs": "typedoc --mode modules --out docs/ --excludeNotExported --excludeExternals src/index.ts",
     "lint": "tslint --project tsconfig.json --fix",
     "test": "nyc ava tests/**/*.test.js",
     "check": "snyk test",
@@ -41,13 +42,13 @@
     "prettier": "^1.16.4",
     "rollup": "^1.10.0",
     "rollup-plugin-clear": "^2.0.7",
-    "rollup-plugin-json": "^4.0.0",
     "rollup-plugin-terser": "^4.0.4",
     "rollup-plugin-typescript2": "^0.20.1",
     "snyk": "^1.147.4",
     "standard-changelog": "^2.0.7",
     "tslint": "^5.15.0",
     "tslint-config-prettier": "^1.18.0",
+    "typedoc": "^0.14.2",
     "typescript": "^3.4.2"
   }
 }
