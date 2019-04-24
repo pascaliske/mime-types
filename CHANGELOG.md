@@ -1,4 +1,13 @@
-# [1.1.0](https://github.com/pascaliske/mime-types/compare/v1.0.2...v1.1.0) (2019-04-06)
+# [1.2.0](https://github.com/pascaliske/mime-types/compare/v1.1.0...v1.2.0) (2019-04-24)
+
+
+### Features
+
+* bundle library for browser usage using umd format ([f22531b](https://github.com/pascaliske/mime-types/commit/f22531b))
+
+
+
+## [1.1.0](https://github.com/pascaliske/mime-types/compare/v1.0.2...v1.1.0) (2019-04-06)
 
 
 ### Bug Fixes
