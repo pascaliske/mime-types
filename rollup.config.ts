@@ -20,7 +20,7 @@ export default () => ({
             name: 'mimeTypes',
         },
     ],
-    external: ['mime/Mime', 'mime/types/standard.json'],
+    external: ['mime/Mime', 'mime/types/standard'],
     plugins: [
         clear({
             targets: ['dist'],

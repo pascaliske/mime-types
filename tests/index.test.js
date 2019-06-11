@@ -1,5 +1,5 @@
 import test from 'ava'
-import { getType, getExtension } from '../dist'
+import { getType, getExtension, define } from '../dist'
 
 test('return correct mime type for extension', async t => {
     const expected = 'text/plain'
@@ -11,6 +11,15 @@ test('return correct mime type for extension', async t => {
 test('return correct extension for mime type', async t => {
     const expected = 'txt'
     const result = getExtension('text/plain')
+
+    t.is(result, expected)
+})
+
+test('define additional mime types', async t => {
+    define({ 'text/demo': ['demo'] })
+
+    const expected = 'demo'
+    const result = getExtension('text/demo')
 
     t.is(result, expected)
 })
