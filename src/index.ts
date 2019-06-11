@@ -1,5 +1,5 @@
 import * as Mime from 'mime/Mime'
-import * as standard from 'mime/types/standard.json'
+import * as standard from 'mime/types/standard'
 
 /**
  * Internal instance of mime.
