@@ -1,7 +1,7 @@
 {
   "name": "@pascaliske/mime-types",
   "description": "Simple wrapper for node-mime package.",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "license": "MIT",
   "author": {
     "name": "Pascal Iske",
@@ -35,7 +35,7 @@
   "devDependencies": {
     "@commitlint/cli": "^8.0.0",
     "@commitlint/config-conventional": "^8.0.0",
-    "@pascaliske/tsconfig": "^1.0.2",
+    "@pascaliske/tsconfig": "^1.0.3",
     "ava": "^2.1.0",
     "husky": "^2.7.0",
     "lint-staged": "^8.2.1",
