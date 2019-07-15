@@ -1,10 +1,10 @@
 src
 tests
 docs
+coverage
 typings.d.ts
 .rpt2_cache
 .github
-.nyc_output
 .editorconfig
 .huskyrc
 .lintstagedrc
