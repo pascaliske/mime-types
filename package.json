@@ -1,7 +1,7 @@
 {
   "name": "@pascaliske/mime-types",
   "description": "Simple wrapper for node-mime package.",
-  "version": "1.2.5",
+  "version": "1.2.6",
   "license": "MIT",
   "author": {
     "name": "Pascal Iske",
