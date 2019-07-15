@@ -1,6 +1,6 @@
 # Simple wrapper for [`node-mime`](https://github.com/broofa/node-mime)
 
-[![Build Status](https://travis-ci.com/pascaliske/mime-types.svg?branch=master)](https://travis-ci.com/pascaliske/mime-types) [![codecov](https://codecov.io/gh/pascaliske/mime-types/branch/master/graph/badge.svg)](https://codecov.io/gh/pascaliske/mime-types) [![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=pascaliske/mime-types)](https://dependabot.com)
+[![Build Status](https://travis-ci.com/pascaliske/mime-types.svg?branch=master)](https://travis-ci.com/pascaliske/mime-types) [![codecov](https://codecov.io/gh/pascaliske/mime-types/branch/develop/graph/badge.svg)](https://codecov.io/gh/pascaliske/mime-types) [![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=pascaliske/mime-types)](https://dependabot.com)
 
 ## Installation
 
