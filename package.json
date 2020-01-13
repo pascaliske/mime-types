@@ -1,7 +1,7 @@
 {
   "name": "@pascaliske/mime-types",
   "description": "Simple wrapper for node-mime package.",
-  "version": "1.2.6",
+  "version": "1.2.7",
   "license": "MIT",
   "author": {
     "name": "Pascal Iske",
@@ -27,32 +27,36 @@
     "test": "jest --config jest.config.json --coverage && codecov",
     "check": "snyk test",
     "format": "prettier --write \"src/**/*.ts\"",
-    "changelog": "standard-changelog"
+    "changelog": "standard-changelog",
+    "bump": "bump --yes package.json"
   },
+  "prettier": "@pascaliske/prettier-config",
   "dependencies": {
     "mime": "^2.4.4"
   },
   "devDependencies": {
-    "@commitlint/cli": "^8.1.0",
-    "@commitlint/config-conventional": "^8.1.0",
+    "@commitlint/cli": "^8.3.4",
+    "@commitlint/config-conventional": "^8.3.4",
+    "@pascaliske/prettier-config": "^1.0.2",
     "@pascaliske/tsconfig": "^1.0.4",
-    "@types/jest": "^24.0.15",
-    "codecov": "^3.5.0",
-    "expect": "^24.8.0",
-    "husky": "^3.0.0",
-    "jest": "^24.8.0",
-    "lint-staged": "^9.2.0",
-    "prettier": "^1.18.2",
-    "rollup": "^1.17.0",
+    "@types/jest": "^24.0.25",
+    "bump-cli": "^1.1.3",
+    "codecov": "^3.6.1",
+    "expect": "^24.9.0",
+    "husky": "^4.0.7",
+    "jest": "^24.9.0",
+    "lint-staged": "^9.5.0",
+    "prettier": "^1.19.1",
+    "rollup": "^1.29.0",
     "rollup-plugin-clear": "^2.0.7",
-    "rollup-plugin-terser": "^5.1.1",
-    "rollup-plugin-typescript2": "^0.22.0",
-    "snyk": "^1.193.2",
-    "standard-changelog": "^2.0.11",
-    "ts-jest": "^24.0.2",
-    "tslint": "^5.18.0",
+    "rollup-plugin-terser": "^5.2.0",
+    "rollup-plugin-typescript2": "^0.25.3",
+    "snyk": "^1.278.1",
+    "standard-changelog": "^2.0.21",
+    "ts-jest": "^24.3.0",
+    "tslint": "^6.0.0-beta1",
     "tslint-config-prettier": "^1.18.0",
-    "typedoc": "^0.14.2",
-    "typescript": "^3.5.3"
+    "typedoc": "^0.16.2",
+    "typescript": "^3.7.4"
   }
 }
