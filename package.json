@@ -27,8 +27,8 @@
     "test": "jest --config jest.config.json --coverage && codecov",
     "check": "snyk test",
     "format": "prettier --write \"src/**/*.ts\"",
-    "changelog": "standard-changelog",
-    "bump": "bump --yes package.json"
+    "version": "bump --yes package.json",
+    "changelog": "standard-changelog"
   },
   "prettier": "@pascaliske/prettier-config",
   "dependencies": {
