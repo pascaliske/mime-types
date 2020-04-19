@@ -1,13 +1,12 @@
 language: node_js
 node_js:
-  - '12'
+  - '13'
 install:
-  - yarn install
+  - yarn install --frozen-lockfile
 script:
   - yarn run build
   - yarn run lint
   - yarn run test
-  - yarn run check
 deploy:
   provider: npm
   email: info@pascal-iske.de
@@ -17,7 +16,4 @@ deploy:
   on:
     tags: true
     branch: master
-    node: 12
-env:
-  global:
-    - secure: isJw8LpxBkoNkThZ2T++gKcP5KK1zHpd2urAGKtvZy1xnmN8viWMavKKEmqzaUigmHU1EaXyIJ6HCRfICwND7tk25e0t2l8C1UwMK0qCFFy3+o4v/YLj8NtYS939QgbybntJUp8DB3OH6S4FXtCDLQvFxq43eLEGz/fm9iMPMvaFLQjQOyGsN6qtEyH2BfyV54xiywnc9l8KERkLFp9Y9tUi9ZhGZhh+hXhYO2MaJymDMZOoKLfO2P7frFaEehPhcRnlQR4X3WdEJ58bFgr4jWXw4kE+KRXphNw33yQ62II3z5UvZGbQGFqsU7G2AfC+BF62d1t6OjtqIEN9fr6GAX2tkVrHfo9GlhSZVecV6jvV4Tb19QCnhIPpgXQf90lv5AIpeMKJv68mfjSxP/I9x7DvzcSialJgAVIN1zjRU7TPH+pwn7f6iJdLbENz4JnQIIS4WH4/nUpZpwtuGhbTw+ifLpT2Y/bUsPlx4Eb1J2Bp6RF8CaoenLQRFmzAiXCDsk0vsDosnMmBYSGecrXiJ+mVw2cYM6xo8iZg4zEkVtgMjERio2WmyjcTwmjoCvmZsxhCwSzFaZvNH0OW6L3OPXwGB7j4H5cBr09BFL6q7BT9WJ/gIKuxqQGvTIa+AHKnL6wcf70uL/ugcVf9MpbXRlPB/4nbXahsRqpDkQV3co0=
+    node: 13
