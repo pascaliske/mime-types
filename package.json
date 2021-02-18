@@ -31,7 +31,7 @@
   },
   "prettier": "@pascaliske/prettier-config",
   "dependencies": {
-    "mime": "^2.5.0"
+    "mime": "^2.5.2"
   },
   "devDependencies": {
     "@commitlint/cli": "^11.0.0",
