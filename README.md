@@ -25,4 +25,4 @@ For more information go to the [node-mime package](https://github.com/broofa/nod
 
 ## License
 
-MIT © [Pascal Iske](https://pascal-iske.de)
+MIT © [Pascal Iske](https://pascaliske.dev)
