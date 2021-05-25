@@ -1,3 +1,7 @@
+## [1.2.12](https://github.com/pascaliske/mime-types/compare/v1.2.11...v1.2.12) (2021-05-25)
+
+
+
 ## [1.2.11](https://github.com/pascaliske/mime-types/compare/v1.2.10...v1.2.11) (2021-05-03)
 
 
