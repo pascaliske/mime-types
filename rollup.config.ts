@@ -1,22 +1,21 @@
 import clear from 'rollup-plugin-clear'
 import typescript from 'rollup-plugin-typescript2'
 import { terser } from 'rollup-plugin-terser'
-import { module, main, browser } from './package.json'
 
 export default () => ({
     input: 'src/index.ts',
     output: [
         {
             format: 'es',
-            file: module,
+            file: 'dist/index.es.js',
         },
         {
             format: 'cjs',
-            file: main,
+            file: 'dist/index.js',
         },
         {
             format: 'umd',
-            file: browser,
+            file: 'dist/index.umd.js',
             name: 'mimeTypes',
         },
     ],
@@ -27,7 +26,6 @@ export default () => ({
             watch: true,
         }),
         typescript({
-            typescript: require('typescript'),
             tsconfigOverride: {
                 exclude: ['rollup.config.ts'],
             },

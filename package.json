@@ -20,8 +20,8 @@
   "browser": "dist/index.umd.js",
   "typings": "dist/index.d.ts",
   "scripts": {
-    "build": "rollup --config rollup.config.ts",
-    "watch": "rollup --config rollup.config.ts --watch",
+    "build": "rollup --config rollup.config.ts --configPlugin @rollup/plugin-typescript",
+    "watch": "rollup --config rollup.config.ts --configPlugin @rollup/plugin-typescript --watch",
     "docs": "typedoc --out docs/ --excludeExternals src/index.ts",
     "lint": "tslint --project tsconfig.json --fix",
     "test": "jest --config jest.config.json --coverage && codecov",
@@ -38,6 +38,7 @@
     "@commitlint/config-conventional": "^17.2.0",
     "@pascaliske/prettier-config": "^1.2.0",
     "@pascaliske/tsconfig": "^1.0.7",
+    "@rollup/plugin-typescript": "^9.0.2",
     "@rstacruz/bump-cli": "^2.0.1",
     "@types/jest": "^29.0.0",
     "codecov": "^3.8.3",
